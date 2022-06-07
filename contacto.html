@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Idealsur.com Creatividad al sur del mundo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+
+    <header>
+   
+        <img  class="logo" src="imagenes/logoidealsurcolor.jpg"> <a href="index.html"></a>
+ 
+          <nav >
+ 
+                 <ul>
+                     <li> <a href="index.html">Home </a></li>
+                     <li> <a href="somos.html">Somos </a></li>
+                     <li> <a href="herramientas.html">Herramientas </a></li>
+                     <li> <a href="clientes.html">Clientes </a></li>
+                     <li> <a href="contacto.html">Contacto </a></li>
+                     
+                 </ul>
+ 
+             </nav>
+    </header>
+    
+    <main class="contacto">
+
+
+
+        <h1 class="animate__animated animate__fadeInDown">Contacto</h1>
+
+        <div>
+
+        <form action= "contacto.php" method="POST" enctype="text/plain" class="contacto">
+
+            <label for="nombre"> <p> Nombre: </p>  </label>
+
+            <input type="text" name="nombre" placeholder="Ingrese su nombre"> 
+
+            <label for="apellido"> <p> Apellido:  </p></label>
+
+            <input type="text" name="apellido" placeholder="Ingrese su apellido"> 
+
+         
+            <label for="edad"> <p> Edad: </p>    </label>
+
+                <select name="Edad">
+    
+                    <option value="j">Menos de 18 años</option>
+                    <option value="a">Entre 18 y 54 años</option>
+                    <option value="g">Entre 55 y 75 años</option>
+                    <option value="v">Mas de 75 años</option>
+    
+                </select>
+
+
+        <p> Sexo: </p> <input type="checkbox" name="sexo2" value="M"> Masculino <input type="checkbox" name="sexo2" value="F"> Femenino 
+        
+        <input type="checkbox" name="sexo3" value="Otro"> Otro 
+
+        </form>
+        
+    </div>
+
+
+
+     <h2>Consultas</h2>
+
+     
+
+     <div>
+
+        <form> 
+
+
+        <p><textarea name="comentarios" rows="10" cols="30" class="consultas">Escribe aquí tus consultas</textarea></p>
+        <input type="submit" value="Enviar">
+        <input type="reset"  value="Limpiar">
+
+
+        </form>
+    </div>
+
+    </main>
+
+    <footer>
+
+        <p>Copyright © 2021 idealsur.com</p> 
+
+
+    </footer>
+</body>
+</html>
